@@ -1,0 +1,10 @@
+
+{
+    "name": "calculator",
+    "version": "1.0.0",
+    "description": "Simple calculator application",
+    "author": "KOS",
+    "entry_point": "calculator.py",
+    "cli_function": "cli_app",
+    "cli_aliases": ["calc"]
+}
