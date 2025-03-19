@@ -3,13 +3,14 @@
     "description": "Kaede Package Manager Repository",
     "packages": {
         "calculator": {
+            "name": "calculator",
             "version": "1.0.0",
             "description": "Simple calculator application",
             "author": "KOS",
             "entry_point": "calculator.py",
             "cli_aliases": ["calc"],
-            "files": ["calculator.py"],  <-- Added "files" list
-            "checksum": "YOUR_CALCULATED_CHECKSUM"  <-- Added "checksum"
+            "files": ["calculator.py"],
+            "checksum": "TEST_CHECKSUM_DISABLED"
         }
     }
 }
