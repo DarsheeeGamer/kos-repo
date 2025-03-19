@@ -2,10 +2,8 @@
 
 def add(a, b):
     return a + b
-
 def subtract(a, b):
     return a - b
-
 def multiply(a, b):
     return a * b
 
@@ -20,8 +18,8 @@ def cli_app():
     while True:  # Keep the calculator running in a loop
         try:
             expr = input("> ")
-            if expr.lower() == 'exit': # Add exit command
-                break
+            if expr.lower() == 'exit': 
+                break  # <--- BREAK THE LOOP TO EXIT APP, NOT ENTIRE SHELL
 
             parts = expr.split()
             if len(parts) != 3:
