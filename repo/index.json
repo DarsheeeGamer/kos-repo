@@ -1,4 +1,3 @@
-
 {
     "name": "KOS Repository",
     "description": "Kaede Package Manager Repository",
@@ -8,7 +7,9 @@
             "description": "Simple calculator application",
             "author": "KOS",
             "entry_point": "calculator.py",
-            "cli_aliases": ["calc"]
+            "cli_aliases": ["calc"],
+            "files": ["calculator.py"],  <-- Added "files" list
+            "checksum": "YOUR_CALCULATED_CHECKSUM"  <-- Added "checksum"
         }
     }
 }
