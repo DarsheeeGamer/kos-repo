@@ -5,6 +5,5 @@
     "description": "Simple calculator application",
     "author": "KOS",
     "entry_point": "calculator.py",
-    "cli_function": "cli_app",
-    "cli_aliases": ["calc"]
+    "cli_function": "cli_app"
 }
