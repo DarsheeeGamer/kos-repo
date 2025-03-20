@@ -8,7 +8,6 @@
             "description": "Simple calculator application",
             "author": "KOS",
             "entry_point": "calculator.py",
-            "cli_aliases": ["calc"],
             "files": ["calculator.py"],
             "checksum": "TEST_CHECKSUM_DISABLED"
         }
