@@ -4,27 +4,22 @@
     "description": "Kaede Package Manager Repository",
     "packages": {
         "calculator": {
+            "name": "calculator",
             "version": "1.0.0",
             "description": "Simple calculator application",
             "author": "KOS",
             "entry_point": "calculator.py",
-            "cli_aliases": ["calc"]
-        },
-        "discord-bot": {
-            "version": "1.0.0",
-            "description": "A Discord bot that runs on KOS",
-            "author": "KOS",
-            "entry_point": "bot.py",
-            "cli_aliases": ["bot"],
-            "dependencies": ["discord.py"]
+            "files": ["calculator.py"],
+            "checksum": "TEST_CHECKSUM_DISABLED"
         },
         "qotd": {
+            "name": "qotd",
             "version": "1.0.0",
             "description": "Quote of the Day - Get and manage daily inspirational quotes",
             "author": "KOS",
             "entry_point": "qotd.py",
-            "cli_aliases": ["quote"],
-            "files": ["qotd.py", "quotes.json"]
+            "files": ["qotd.py", "quotes.json"],
+            "checksum": "TEST_CHECKSUM_DISABLED"
         }
     }
 }
