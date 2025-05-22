@@ -20,8 +20,8 @@
             "files": ["qotd.py", "quotes.json"],
             "checksum": "TEST_CHECKSUM_DISABLED"
         },
-        "calender": {
-            "name": "calender",
+        "cal": {
+            "name": "cal",
             "version": "0.1.0",
             "description": "a simple 'cal' app",
             "author": "InZane84",
