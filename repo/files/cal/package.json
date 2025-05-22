@@ -1,11 +1,11 @@
 {
     "name": "cal",
     "version": "0.1.0",
-    "description": "a simple 'cal' app",
+    "description": "a simple calender app",
     "author": "InZane84",
     "main": "cal.py",
-    "dependencies": {},
-    "cli_aliases": ["cal", "calender"],
-    "cli_function": "cli_app",
+    
+    "cli_aliases": ["calender"],
+    "cli_function": "cli_app"
     "tags": ["utility"]
 }
