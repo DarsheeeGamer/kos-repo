@@ -26,7 +26,7 @@
             "description": "a simple 'cal' app",
             "author": "InZane84",
             "entry_point": "cal.py",
-            "files": ["cal.py", "package.json"],
+            "files": ["cal.py"],
             "checksum": "TEST_CHECKSUM_DISABLED"
         }
     }
