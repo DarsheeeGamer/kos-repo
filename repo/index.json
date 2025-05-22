@@ -1,4 +1,3 @@
-
 {
     "name": "KOS Repository",
     "description": "Kaede Package Manager Repository",
@@ -19,6 +18,15 @@
             "author": "KOS",
             "entry_point": "qotd.py",
             "files": ["qotd.py", "quotes.json"],
+            "checksum": "TEST_CHECKSUM_DISABLED"
+        },
+        "cal": {
+            "name": "cal",
+            "version": "0.1.0",
+            "description": "a simple 'cal' app",
+            "author": "InZane84",
+            "entry_point": "cal.py",
+            "files": ["cal.py", "package.json"],
             "checksum": "TEST_CHECKSUM_DISABLED"
         }
     }
