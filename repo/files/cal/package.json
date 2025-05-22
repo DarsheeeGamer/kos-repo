@@ -3,9 +3,6 @@
     "version": "0.1.0",
     "description": "a simple calender app",
     "author": "InZane84",
-    "main": "cal.py",
-    
-    "cli_aliases": ["calender"],
+    "entry_point": "cal.py",
     "cli_function": "cli_app"
-    "tags": ["utility"]
 }
