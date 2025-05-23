@@ -6,7 +6,7 @@
             "name": "calculator",
             "version": "1.0.0",
             "description": "A simple calculator APP for the KOS.",
-            "author": "KOS",
+            "author": "Kaede Dev Kento Hinode",
             "entry_point": "calculator.py",
             "files": ["calculator.py"],
             "checksum": "TEST_CHECKSUM_DISABLED"
@@ -15,7 +15,7 @@
             "name": "qotd",
             "version": "1.0.0",
             "description": "Quote of the Day - Get and manage daily inspirational quotes",
-            "author": "KOS",
+            "author": "Kaede Dev Kento Hinode",
             "entry_point": "qotd.py",
             "files": ["qotd.py", "quotes.json"],
             "checksum": "TEST_CHECKSUM_DISABLED"
