@@ -10,8 +10,7 @@
             "entry_point": "calculator.py",
             "files": ["calculator.py"],
             "checksum": "TEST_CHECKSUM_DISABLED",
-            "tags":[
-                "UTILITY" ]
+            "tags": "UTILITY"
         },
         "qotd": {
             "name": "qotd",
