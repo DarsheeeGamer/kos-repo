@@ -9,7 +9,9 @@
             "author": "Kaede Dev Kento Hinode",
             "entry_point": "calculator.py",
             "files": ["calculator.py"],
-            "checksum": "TEST_CHECKSUM_DISABLED"
+            "checksum": "TEST_CHECKSUM_DISABLED",
+            "tags":[
+                "UTILITY" ]
         },
         "qotd": {
             "name": "qotd",
