@@ -29,6 +29,16 @@
             "entry_point": "cal.py",
             "files": ["cal.py"],
             "checksum": "TEST_CHECKSUM_DISABLED"
+        },
+        "sysmon": {
+            "name": "sysmon",
+            "version": "1.0.0",
+            "description": "Real-time system resource monitor for KOS - displays CPU, memory, disk, network stats and top processes",
+            "author": "KOS Development Team",
+            "entry_point": "sysmon.py",
+            "files": ["sysmon.py", "package.json"],
+            "checksum": "TEST_CHECKSUM_DISABLED",
+            "tags": ["system", "monitoring", "utility"]
         }
     }
 }

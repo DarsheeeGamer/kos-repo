@@ -1,0 +1,10 @@
+{
+    "name": "sysmon",
+    "version": "1.0.0",
+    "description": "Real-time system resource monitor for KOS",
+    "author": "KOS Development Team",
+    "entry_point": "sysmon.py",
+    "cli_function": "cli_app",
+    "dependencies": ["psutil"],
+    "tags": ["system", "monitoring", "utility"]
+}
